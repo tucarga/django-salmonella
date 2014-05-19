@@ -10,7 +10,7 @@ function dismissRelatedLookupPopup(win, chosenId) {
         elem.value = chosenId;
     }
     django.jQuery(elem).trigger('change');
-    win.close();
+    // win.close();
 }
 
 (function($) {
